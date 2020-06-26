@@ -1,0 +1,1 @@
+# strix-b550-f-hackintosh
