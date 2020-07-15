@@ -3,7 +3,7 @@ My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 
 ## Important info
 - Based on OpenCore 0.5.9
-- **Does not boot at this point in time**
+- **As of 07/14/20, can not boot**
 
 ## Intended system config
 - An ASUS Strix B550-F GAMING motherboard
