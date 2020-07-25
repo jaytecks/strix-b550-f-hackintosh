@@ -3,7 +3,16 @@ My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 
 ## Important info
 - Based on OpenCore 0.5.9
-- **As of 07/20/20, can not boot**
+- **As of 07/24/20, can not boot**
+
+# HELP NEEDED
+Help is needed to start debugging macOS' boot process on this board!
+If you know the pinout to the five pin `COM_DEBUG` header shown here:
+
+![image of header](F47EA593-2588-4280-9741-47D0BFC46C25.jpeg)
+
+please get in touch with me on Discord at:
+`✿ Weeb ThatsNiceGuy#7991`
 
 ## Intended system config
 - An ASUS Strix B550-F GAMING motherboard
@@ -12,16 +21,26 @@ My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 - Apple AirPort BCM943602CS Wireless card in second PCIe x16 slot
 
 ## "features"
-- ???
-
-## Known issues
-- **Doesn't boot, gets stuck at ACPI detection**
-- Sidecar doesn't work - [See here](https://github.com/AMD-OSX/bugtracker/issues/1)
-- Apple Watch simulator in Xcode doesn't work (normal for AMD hacks apparently)
+- Based on OpenCore 0.5.9
 
 ## To-do list
-- [ ] Get macOS 10.15.5 booting successfully
-- [ ] Get macOS 10.16/10.11 booting successfully
+
+**High priority**
+- [ ] Get macOS Catalina booting successfully
+- [ ] Get system perfectly running Catalina (WiFi, audio, etc)
+
+**Medium priority**
+
+no medium priority stuff yet
+
+**Low priority**
+- [ ] Get macOS Big Sur booting successfully
+
+
+## Known issues
+- **Doesn't boot**
+- Sidecar doesn't work - [See here](https://github.com/AMD-OSX/bugtracker/issues/1)
+- Apple Watch simulator in Xcode doesn't work (normal for AMD hacks apparently)
 
 ## Credits
 - everyone developing for the hackintosh community
