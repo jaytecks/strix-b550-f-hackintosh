@@ -2,8 +2,8 @@
 My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 
 ## Important info
-- Based on OpenCore 0.5.9
-- **As of 07/24/20, can not boot**
+- Based on OpenCore 0.6.0
+- **As of 08/06/20, can not boot**
 
 # HELP NEEDED
 Help is needed to start debugging macOS' boot process on this board!
@@ -17,11 +17,24 @@ please get in touch with me on Discord at:
 ## Intended system config
 - An ASUS Strix B550-F GAMING motherboard
 - AMD Ryzen 5 3600 CPU
-- ASUS STRIX RX 5700 XT GPU in first PCIe x16 slot
-- Apple AirPort BCM943602CS Wireless card in second PCIe x16 slot
+- Reference Gigabyte RX Vega 56 in first PCIe x16 slot
+- Apple AirPort BCM943602CS wireless card in second PCIe x16 slot
+
+## Recommended BIOS settings
+**Boot**
+- Secure Boot 
+  - Secure Boot → Off
+  - OS Type → Windows 10
+- CSM
+  - Launch CSM → Disabled
 
 ## "features"
 - Based on OpenCore 0.5.9
+
+## Known issues
+- **Doesn't boot**
+- Sidecar doesn't work - [See here](https://github.com/AMD-OSX/bugtracker/issues/1)
+- Apple Watch simulator in Xcode doesn't work (normal for AMD hacks apparently)
 
 ## To-do list
 
@@ -35,12 +48,6 @@ no medium priority stuff yet
 
 **Low priority**
 - [ ] Get macOS Big Sur booting successfully
-
-
-## Known issues
-- **Doesn't boot**
-- Sidecar doesn't work - [See here](https://github.com/AMD-OSX/bugtracker/issues/1)
-- Apple Watch simulator in Xcode doesn't work (normal for AMD hacks apparently)
 
 ## Credits
 - everyone developing for the hackintosh community
