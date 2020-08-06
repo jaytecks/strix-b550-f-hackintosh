@@ -29,7 +29,7 @@ please get in touch with me on Discord at:
   - Launch CSM → Disabled
 
 ## "features"
-- Based on OpenCore 0.5.9
+???
 
 ## Known issues
 - **Doesn't boot**
