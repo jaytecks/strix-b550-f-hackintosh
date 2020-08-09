@@ -6,7 +6,7 @@ My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 - **Patch released! I'm working on getting the EFI done ASAP, so please be patient!**
 
 ## Info from XLNC about the patch
-```Hi guys !
+Hi guys !
 ok so long story short.
 Upon comparing verbose messages i observed that after ACPI tables are acquired and loaded by AppleACPIPlatform, the AppleACPICPU doesnt showup for some reason . So after looking into couple of functions in the AppleACPIPlatform.kext binary, i see that AppleACPICPU looks for ACPI processor objects each with a processor id.
 
@@ -19,7 +19,8 @@ The problem here is that all B550 boards follow newer ACPI specs where they have
 Solution:
 Re-declare processor in DSDT as ProcessorObj and make macos happy.
 it can be done in few ways through hotpatch. so i have created this SSDT based of the ACPI dumps people posted here so might update it in future if needed.
-Add this SSDT to your OC and boot.```
+
+**An SSDT was provided with this message as well.**
 
 ## Intended system config
 - An ASUS Strix B550-F GAMING motherboard
