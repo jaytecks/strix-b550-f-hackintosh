@@ -5,14 +5,8 @@ My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 - Based on OpenCore 0.6.0
 - **As of 08/06/20, can not boot**
 
-# HELP NEEDED
-Help is needed to start debugging macOS' boot process on this board!
-If you know the pinout to the five pin `COM_DEBUG` header shown here:
+# SUCCESS?
 
-![image of header](F47EA593-2588-4280-9741-47D0BFC46C25.jpeg)
-
-please get in touch with me on Discord at:
-`✿ Weeb ThatsNiceGuy#7991`
 
 ## Intended system config
 - An ASUS Strix B550-F GAMING motherboard
