@@ -3,12 +3,23 @@ My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 
 ## Important info
 - Based on OpenCore 0.6.0
-- **As of 08/09/20, can not boot** BUT I will try to get it running as soon as XLNC releases his hotpatch (see below)
+- **Patch released! I'm working on getting the EFI done ASAP, so please be patient!**
 
-# SUCCESS?
-![Image of XLNC saying he got b550 booting macOS](/7ABC8423-A20B-4743-B26A-F77217D6BD7A.jpeg)
-On the macOS AMD discord, user XLNC stated he figured out the issues on b550 and successfully got macOS running.\
-He also stated that he will release the patch when he has time, so now we wait.
+## Info from XLNC about the patch
+```Hi guys !
+ok so long story short.
+Upon comparing verbose messages i observed that after ACPI tables are acquired and loaded by AppleACPIPlatform, the AppleACPICPU doesnt showup for some reason . So after looking into couple of functions in the AppleACPIPlatform.kext binary, i see that AppleACPICPU looks for ACPI processor objects each with a processor id.
+
+In our ACPI tables usually the processor is declared as `ProcessorObj` which consists of a `ProcessorName` and a `ProcessorID` which then macos uses it to find declared processors in ACPI tables. 
+According to ACPI 5.0 spec , they have now provided a newer way of defining processor in ACPI as `DeviceObj` which contains a HID `ACPI0007` to let OS know that its a processor and a UID which acts as a processorID or index in simple words. so now processors can be declared either as ProcessorObj or DeviceObj.
+AND since ACPI 6.0 spec the processorObj is deprecated leaving with only DeviceObj as the option.
+
+The problem here is that all B550 boards follow newer ACPI specs where they have their processor declared in DSDT as `DeviceObj` rather than `ProcessorObj` so macOS (AppleACPICPU specifically) looks for ProcessorObj with ProcessorID which isn't used anymore in B550 boards. so when it couldn't find that, it goes around the corner sits there and cry.
+
+Solution:
+Re-declare processor in DSDT as ProcessorObj and make macos happy.
+it can be done in few ways through hotpatch. so i have created this SSDT based of the ACPI dumps people posted here so might update it in future if needed.
+Add this SSDT to your OC and boot.```
 
 ## Intended system config
 - An ASUS Strix B550-F GAMING motherboard
