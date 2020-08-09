@@ -3,10 +3,11 @@ My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 
 ## Important info
 - Based on OpenCore 0.6.0
-- **As of 08/06/20, can not boot**
+- **As of 08/09/20, can not boot** BUT I will try to get it running as soon as XLNC releases his hotpatch (see below)
 
 # SUCCESS?
-
+![Image of XLNC saying he got b550 booting macOS](/7ABC8423-A20B-4743-B26A-F77217D6BD7A.jpeg)
+On the macOS AMD discord, user XLNC stated he figured out the issues on b550 and successfully got macOS running.
 
 ## Intended system config
 - An ASUS Strix B550-F GAMING motherboard
@@ -15,12 +16,7 @@ My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 - Apple AirPort BCM943602CS wireless card in second PCIe x16 slot
 
 ## Recommended BIOS settings
-**Boot**
-- Secure Boot 
-  - Secure Boot → Off
-  - OS Type → Windows 10
-- CSM
-  - Launch CSM → Disabled
+**Coming very soon**
 
 ## "features"
 ???
