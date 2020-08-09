@@ -7,7 +7,8 @@ My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 
 # SUCCESS?
 ![Image of XLNC saying he got b550 booting macOS](/7ABC8423-A20B-4743-B26A-F77217D6BD7A.jpeg)
-On the macOS AMD discord, user XLNC stated he figured out the issues on b550 and successfully got macOS running.
+On the macOS AMD discord, user XLNC stated he figured out the issues on b550 and successfully got macOS running.\
+He also stated that he will release the patch when he has time, so now we wait.
 
 ## Intended system config
 - An ASUS Strix B550-F GAMING motherboard
