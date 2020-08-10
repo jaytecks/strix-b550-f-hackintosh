@@ -2,15 +2,11 @@
 My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 
 [Help downloading or using this EFI](https://github.com/ThatsNiceGuy/strix-b550-f-hackintosh/blob/master/README.md#installation-and-usage)
-
-## Important info
-- Based on OpenCore 0.6.0
-- **EFI now mostly working!**
-
 ## What works
-- Full support for Catalina 10.15
+- Full support for Catalina 10.15 with OpenCore 0.5.9
 - Audio
 - Ethernet
+  - Some issues have been found; if your Hackintosh kernel panics when you try to boot then disable Ethernet in the BIOS.
 - USB (probably, haven't tested all ports)
 - Wi-Fi if you have a wireless card
 - Bluetooth if you have a wireless card
@@ -81,6 +77,15 @@ Do not worry about networking/en0 or stuff like that, I've already done that.
 **Coming very soon**
 
 ### Replacing an EFI on an SSD/HDD
+#### From macOS
+1. Use CorpNewt's [MountEFI](https://github.com/corpnewt/MountEFI) to mount the EFI of your SSD/HDD
+2. Navigate to the recently mounted EFI
+3. Delete the BOOT and OC folders in there
+4. Navigate to my EFI that you just downloaded
+5. Put the new BOOT and OC folders from my EFI into where the old folders were.
+6. Boot
+
+#### From Windows
 **Coming very soon**
 
 ## Credits
