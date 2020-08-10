@@ -35,14 +35,13 @@ it can be done in few ways through hotpatch. so i have created this SSDT based o
 ???
 
 ## Known issues
-- **Doesn't boot**
 - Sidecar doesn't work - [See here](https://github.com/AMD-OSX/bugtracker/issues/1)
 - Apple Watch simulator in Xcode doesn't work (normal for AMD hacks apparently)
 
 ## To-do list
 
 **High priority**
-- [ ] Get macOS Catalina booting successfully
+- [x] Get macOS Catalina booting successfully
 - [ ] Get system perfectly running Catalina (WiFi, audio, etc)
 
 **Medium priority**
