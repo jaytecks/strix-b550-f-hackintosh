@@ -1,6 +1,8 @@
 # STRIX B550-F GAMING Hackintosh
 My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 
+[Help downloading or using this EFI]()
+
 ## Important info
 - Based on OpenCore 0.6.0
 - **EFI now mostly working!**
@@ -32,9 +34,15 @@ no medium priority stuff yet
 - [ ] Get macOS Big Sur booting successfully
 
 # Installation and Usage
-Use my EFI with this guide
+**Table of contents**
+- [Step 1 - Intended system config]()
+- [Step 2 - Recommended BIOS settings]()
+- [Step 3 - iCloud setup]()
+- [Step 4 - Downloading the EFI]()
+- [Step 5 - Transferring to your storage device]()
 
-## Step 1 - Intended system config 
+## Step 1 - Intended system config
+**What hardware is best supported and how**
 - An ASUS Strix B550-F GAMING motherboard
 - Ryzen 3000 series processor 
   - Ryzen 3 2200G and Ryzen 5 2400G are **not supported**
@@ -53,10 +61,16 @@ Use my EFI with this guide
 ## Step 2 - Recommended BIOS settings
 **Coming very soon**
 
-## Step 3 - Serial Number
+## Step 3 - iCloud setup
+**Gets this EFI ready for you to use your own iCloud account on it**\
+\
 **Coming very soon**
 
-## Step 4 - Transferring to your storage device
+## Step 4 - Downloading the EFI
+I haven't uploaded the EFI yet, as I feel it's not good enough yet.\
+Check back soon, I've been working hard on this
+
+## Step 5 - Transferring to your storage device
 ### Transferring to a USB installer drive
 **Coming very soon**
 
