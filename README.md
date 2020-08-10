@@ -1,7 +1,7 @@
 # STRIX B550-F GAMING Hackintosh
 My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 
-[Help downloading or using this EFI]()
+[Help downloading or using this EFI](https://github.com/ThatsNiceGuy/strix-b550-f-hackintosh/blob/master/README.md#installation-and-usage)
 
 ## Important info
 - Based on OpenCore 0.6.0
