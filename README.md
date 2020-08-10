@@ -35,7 +35,7 @@ no medium priority stuff yet
 
 # Installation and Usage
 **Table of contents**
-- [Step 1 - Intended system config]()
+- [Step 1 - Intended system config](https://github.com/ThatsNiceGuy/strix-b550-f-hackintosh/blob/master/README.md#step-1---intended-system-config)
 - [Step 2 - Recommended BIOS settings]()
 - [Step 3 - iCloud setup]()
 - [Step 4 - Downloading the EFI]()
