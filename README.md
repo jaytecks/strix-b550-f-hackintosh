@@ -6,7 +6,7 @@ My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 - Full support for Catalina 10.15 with OpenCore 0.5.9
 - Audio
 - Ethernet
-  - Some issues have been found; if your Hackintosh kernel panics when you try to boot then disable Ethernet in the BIOS.
+  - Some issues have been found; if your Hackintosh kernel panics when you try to boot then disable Ethernet in the BIOS. Alternatively, you can remove the `device-id` key under `PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x2)/Pci(0x9,0x0)/Pci(0x0,0x0)` in the DeviceProperties section
 - USB (probably, haven't tested all ports)
 - Wi-Fi if you have a wireless card
 - Bluetooth if you have a wireless card
