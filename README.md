@@ -59,16 +59,22 @@ no medium priority stuff yet
 **You must follow the pcie slot placements to use this EFI as-is. If you would like to put things in different slots, you'll have to configure DeviceProperties yourself.**
 
 ## Step 2 - Recommended BIOS settings
-**Coming very soon**
+- Boot
+  - Compatibility Support Module
+    - Launch CSM → **Disabled**
 
 ## Step 3 - iCloud setup
-**Gets this EFI ready for you to use your own iCloud account on it**\
-\
-**Coming very soon**
+Gets this EFI ready for you to use your own iCloud account on it\
+**Full Instructions Soon**
+1. Open `config.plist` with your favorite plist editor - I use ProperTree
+2. Scroll to the `PlatformInfo` section
+3. Follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) to generate your serials and place them in the correct location.
+Do not worry about networking/en0 or stuff like that, I've already done that.
 
 ## Step 4 - Downloading the EFI
-I haven't uploaded the EFI yet, as I feel it's not good enough yet.\
-Check back soon, I've been working hard on this
+1. Download this repo - Click the green button that says `↓ Code`, then choose a ZIP download
+2. Unzip the download if needed
+3. Move the `EFI` folder somewhere easy to reach. 
 
 ## Step 5 - Transferring to your storage device
 ### Transferring to a USB installer drive
