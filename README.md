@@ -20,15 +20,17 @@ My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 
 **High priority**
 - [x] Get macOS Catalina booting successfully
-- [ ] Get system perfectly running Catalina (WiFi, audio, etc)
+- [x] Get system perfectly running Catalina (WiFi, audio, etc)
+  - **Not pushed to github yet!**
 
 **Medium priority**
 
 no medium priority stuff yet
 
 **Low priority**
-- [ ] Get macOS Big Sur booting successfully
-
+- [x] Get macOS Big Sur booting successfully
+  - **Not pushed to github yet!**
+  
 # Installation and Usage
 **Table of contents**
 - [Step 1 - Intended system config](https://github.com/ThatsNiceGuy/strix-b550-f-hackintosh/blob/master/README.md#step-1---intended-system-config)
