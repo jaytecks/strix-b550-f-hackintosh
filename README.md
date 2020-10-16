@@ -29,9 +29,16 @@ no medium priority stuff yet
 
 **Low priority**
 - [x] Get macOS Big Sur booting successfully
-  - **Not pushed to github yet!**
+  - **Only Beta 4 and earlier work! fixing soon**
   
 # Installation and Usage
+
+## Requirements
+- Ability to use a plist editor
+- Ability to read instructions
+- Good knowledge of navigating filesystems
+
+
 **Table of contents**
 - [Step 1 - Intended system config](https://github.com/ThatsNiceGuy/strix-b550-f-hackintosh/blob/master/README.md#step-1---intended-system-config)
 - [Step 2 - Recommended BIOS settings](https://github.com/ThatsNiceGuy/strix-b550-f-hackintosh/blob/master/README.md#step-2---recommended-bios-settings)
@@ -52,6 +59,7 @@ no medium priority stuff yet
 - NVMe SSD inside the top M.2 slot
   - Leaving the slot empty is fine
 - SATA SSD Inside the bottom M.2 slot
+  - Leaving the slot empty is fine
   - Try not to put an NVMe SSD in this slot, as it will reduce the amount of PCIe lanes available to your GPU
 
 **You must follow the pcie slot placements to use this EFI as-is. If you would like to put things in different slots, you'll have to configure DeviceProperties yourself.**
