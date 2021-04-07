@@ -88,3 +88,6 @@ TNA
 ## Credits
 - everyone developing for the hackintosh community
 - the [dortania team](https://github.com/orgs/dortania/people)
+
+## License
+TBA
