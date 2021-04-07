@@ -34,7 +34,7 @@ None
 # Installation and Usage
 
 ## Requirements
-- Ability to use a plist editor
+- ProperTree
 - Ability to read instructions
 - Good knowledge of navigating filesystems
 
