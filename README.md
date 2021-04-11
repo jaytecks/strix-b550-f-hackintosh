@@ -129,7 +129,7 @@ ified
 10. Instructions will be finished later.
 
 
-Note: To remove these drive letter assignments, do step 2 then run **/<TBA>**
+Note: To remove these drive letter assignments, do step 2 then run **\<TBA>**
 
 ## Credits
 - everyone developing for the hackintosh community
