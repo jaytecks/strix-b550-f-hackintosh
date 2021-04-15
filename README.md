@@ -9,7 +9,7 @@ My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
   - Update to OpenCore 0.6.8 is coming later
 - Audio
 - Ethernet
-- USB (fully mapped, incl. USB-C!)
+- USB (fully mapped, including USB-C!)
 - Wi-Fi if you have a wireless card
 - Bluetooth if you have a wireless card
 - All iCloud and Continuity features if you have a macOS supported wireless card
@@ -85,9 +85,12 @@ If you only have one macOS-supported GPU in your PC, to be able to put a GPU in 
 - Advanced
   - PCI Configuration
     - Above 4G Decoding → **Enabled**
-    - Resizable BAR<sup>(if present)</sup> → **Auto**
+    - Resizable BAR → **Disabled**
+      - If this option doesn't show for you, you likely don't need to worry about it.
+  - USB Configuration
+    - Legacy USB Support → **Disabled**
 
-More needed but TBA
+Probably more needed but TBA
 
 ## Step 3 - iCloud setup
 Gets this EFI ready for you to use your own iCloud account on it\
@@ -113,7 +116,8 @@ ified
 1. Ensure the USB drive with your functional EFI is plugged in.
 2. Use the latest version of CorpNewt's MountEFI to mount the EFI partiton of the USB drive.
 3. Repeat and mount the EFI partition of the drive you intent to place the EFI onto. (This will typically be the drive you installed macOS to.
-4. Instructions will be finished later
+4. Copy the entire EFI folder (not just BOOT and OC folders) from your USB drive to the internal SSD/HDD, choosing to replace the old files.
+Note that this method may delete Windows boot files, so check to make sure.
 
 #### From Windows
 
@@ -126,14 +130,18 @@ ified
 7. Enter in `sel vol x` where `x` is the number you identified to be the EFI partition.
 8. Enter in `ass letter=X:` where `X` is the drive letter you want to assign it. I typically use Y.
 9. Repeat steps 3-8 for your internal hard drive/SSD.
-10. Instructions will be finished later.
+10. Download and install [Total Commander](https://www.ghisler.com/download.htm). 
+11. Instructions finished later.
 
 
 Note: To remove these drive letter assignments, do step 2 then run **\<TBA>**
 
 ## Credits
-- everyone developing for the hackintosh community
-- the [dortania team](https://github.com/orgs/dortania/people)
+- Everyone developing for the hackintosh community
+- The [Dortania team](https://github.com/orgs/dortania) for the [guides](https://dortania.github.io/getting-started/) and for other resources used here
+- Ancidanthera for some of the kexts used here
+- The r/hackintosh Paradise Discord server and everyone in there who helped me along the way!
+- Probably someone else that 
 
 ## License
-TBA
+idk what
