@@ -1,5 +1,5 @@
 # STRIX B550-F GAMING Hackintosh v1.0.067
-# Still not ready for use, but soon!
+## maybe works idk use at your own risk
 My EFI files for my desktop hack. Motherboard is an ASUS Strix B550-F GAMING
 
 Versioning: v 1.0  .067\
@@ -105,11 +105,10 @@ If you only have one macOS-supported GPU in your PC, to be able to put a GPU in 
 Probably more needed but TBA
 
 ## Step 4 - iCloud setup
-Gets this EFI ready for you to use your own iCloud account on it\
-**Full Instructions Soon**
-1. Open `config.plist` with ProperTree
-2. Scroll to the `PlatformInfo` section
-3. Follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) to generate your serials and place them in the correct location.
+Gets this EFI ready for you to use your own iCloud account on it
+
+TBA
+
 Do not worry about networking/en0 or stuff like that, I've already done that.
 
 ## Step 5 - Transferring to your storage device
@@ -129,6 +128,8 @@ TBA
 7. Done?
 
 #### From Windows
+
+**Again I am not responsible if you nuke your data**
 
 1. Ensure the USB drive with your functional EFI is plugged in.
 2. Open a Command Prompt, type in `diskpart`, press Enter and click Yes.
