@@ -1,0 +1,1 @@
+This EFI is for Sakura Blossom Big Sur booting with OpenCore 0.6.7
